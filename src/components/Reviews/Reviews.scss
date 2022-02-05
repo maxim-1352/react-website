@@ -1,0 +1,200 @@
+.reviews {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 0 0;
+  background: url("../../assets/img/bg3.png") center 50% / cover no-repeat;
+  position: relative;
+
+  &::before {
+    content: ("");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(#ffffff, 0.8);
+    z-index: -1;
+  }
+  .reviews-box {
+    margin-bottom: 50px;
+    h2 {
+      font-size: clamp(1.125rem, 10vw, 1.875rem);
+      text-transform: uppercase;
+      text-align: center;
+      color: var(--secondary);
+    }
+    p {
+      max-width: 905px;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 15px;
+      color: #000;
+    }
+  }
+  .reviews-items {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .review-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 335px;
+
+      .review-item-desc {
+        position: relative;
+        background-color: #e5e5e5;
+        border-radius: 15px;
+        &.yellow-bg {
+          background-color: var(--primary);
+          color: #fff;
+          transform: scale(1.2);
+          margin-bottom: 25px;
+          @media screen and (max-width: 420px) {
+            transform: scale(1);
+          }
+        }
+        svg {
+          position: absolute;
+          top: 35px;
+          left: 10px;
+        }
+        .arrow-down {
+          width: 0;
+          height: 0;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+
+          border-top: 20px solid #e5e5e5;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          &.yellow-bg {
+            border-top: 20px solid var(--primary);
+          }
+        }
+      }
+
+      p {
+        font-size: 14px;
+        padding: 25px 5px 55px 65px;
+      }
+
+      .img-wrap {
+        margin-top: 25px;
+        img {
+          border-radius: 50%;
+        }
+        span {
+          display: block;
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .contacts {
+    width: 100%;
+
+    background-color: rgba(#ffcb0f, 0.5);
+    z-index: -1;
+    margin-top: 50px;
+
+    &-box {
+      display: flex;
+      align-items: center;
+      padding: 50px 0px;
+      @media screen and (max-width: 1110px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .text {
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        width: 50%;
+        color: #73757e;
+        @media screen and (max-width: 1110px) {
+          margin-bottom: 30px;
+          text-align: start;
+          width: 100%;
+        }
+        h2 {
+          font-size: clamp(1rem, 10vw, 1.563rem);
+          font-weight: 700;
+          margin: 0;
+        }
+        h3 {
+          font-family: "Open-Sans", sans-serif;
+          font-size: clamp(1rem, 10vw, 1.563rem);
+          font-weight: 300;
+          letter-spacing: 7px;
+          margin: 0;
+        }
+      }
+      .form {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding: 0 10px;
+        @media screen and (max-width: 1110px) {
+          width: 100%;
+          padding: 0;
+        }
+
+        .name,
+        .email {
+          width: 250px;
+          padding: 16px 8px 10px 8px;
+          margin-bottom: 10px;
+          border: none;
+          border-radius: 10px;
+          background-color: rgba(#fff, 0.9);
+          @media screen and (max-width: 1110px) {
+            width: 100%;
+          }
+        }
+        .name {
+          margin-right: 10px;
+          @media screen and (max-width: 1110px) {
+            margin-right: 0;
+          }
+        }
+        .textarea {
+          width: 390px;
+          resize: none;
+          padding: 8px;
+          margin-right: 10px;
+          border: none;
+          background-color: rgba(#fff, 0.9);
+          border-radius: 10px;
+          @media screen and (max-width: 1110px) {
+            width: 100%;
+            margin-right: 0;
+          }
+        }
+        .submit {
+          border-radius: 10px;
+          border: none;
+          width: 110px;
+          padding: 17px;
+          background-color: rgba(#656972, 0.5);
+          cursor: pointer;
+          transition: 0.5s all ease-in;
+          @media screen and (max-width: 1110px) {
+            width: 100%;
+          }
+          &:hover {
+            background-color: rgba(#656972, 1);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
