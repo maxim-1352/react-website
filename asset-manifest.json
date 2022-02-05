@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-website/static/css/main.5823bfd0.css",
+    "main.js": "/react-website/static/js/main.e39a066e.js",
+    "static/js/787.e403dcb9.chunk.js": "/react-website/static/js/787.e403dcb9.chunk.js",
+    "static/media/bg1.png": "/react-website/static/media/bg1.e19adeadcca841440e65.png",
+    "static/media/bg4.png": "/react-website/static/media/bg4.754bd92518123a9c8b5e.png",
+    "static/media/bg2.png": "/react-website/static/media/bg2.a32e177ce5051c9d6e7b.png",
+    "static/media/bg3.png": "/react-website/static/media/bg3.5314bd94328fb414ba7e.png",
+    "static/media/photo7.jpg": "/react-website/static/media/photo7.0e938280c75e11eae4ba.jpg",
+    "static/media/photo4.jpg": "/react-website/static/media/photo4.575f7f0ad1efd415e436.jpg",
+    "static/media/photo3.jpg": "/react-website/static/media/photo3.85cd71121cf1642d52de.jpg",
+    "static/media/photo1.jpg": "/react-website/static/media/photo1.e5d131af272905f87032.jpg",
+    "static/media/photo6.jpg": "/react-website/static/media/photo6.142bf72060d95871dc47.jpg",
+    "static/media/photo5.jpg": "/react-website/static/media/photo5.339856d2e05f668399eb.jpg",
+    "static/media/photo8.jpg": "/react-website/static/media/photo8.c5a9ae66cbda7b3f714d.jpg",
+    "static/media/man.jpg": "/react-website/static/media/man.449db5b34576bac6b3c1.jpg",
+    "static/media/photo2.jpg": "/react-website/static/media/photo2.eb9184590a3227749eae.jpg",
+    "static/media/person1.jpg": "/react-website/static/media/person1.b9490318c64741f83ebb.jpg",
+    "static/media/person2.jpg": "/react-website/static/media/person2.26a7c695a4d72d45d0b2.jpg",
+    "static/media/ball.svg": "/react-website/static/media/ball.aef95d078fac8f0b0d7c3f0ba4a7dbbb.svg",
+    "static/media/group.svg": "/react-website/static/media/group.658d9fbc7b4eb8893b1238fe7b18aee2.svg",
+    "static/media/arrow.svg": "/react-website/static/media/arrow.ff3493d963dae82ce208fea6d2f7dab7.svg",
+    "static/media/leaf.svg": "/react-website/static/media/leaf.f54ac9e383b7332e20a03b4a81427569.svg",
+    "index.html": "/react-website/index.html",
+    "static/media/right.svg": "/react-website/static/media/right.58e6fcdd9979bd85f6b4.svg",
+    "main.5823bfd0.css.map": "/react-website/static/css/main.5823bfd0.css.map",
+    "main.e39a066e.js.map": "/react-website/static/js/main.e39a066e.js.map",
+    "787.e403dcb9.chunk.js.map": "/react-website/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5823bfd0.css",
+    "static/js/main.e39a066e.js"
+  ]
+}
